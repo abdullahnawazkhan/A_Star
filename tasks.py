@@ -2,7 +2,7 @@ class graph:
 	def __init__(self, graph, heuristics):
 		self.graph = graph
 		self.heuristics = heuristics
-	
+
 	def get_neighbours(self, node):
 		return self.graph[node]
 
